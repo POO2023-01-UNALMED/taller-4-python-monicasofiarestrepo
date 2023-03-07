@@ -6,5 +6,5 @@ class Asignatura:
 
 
     def __str__(self):
-        linea = ("Matematicas " +self._salon)
+        linea = (self.nombre+" "+self._salon)
         return linea
